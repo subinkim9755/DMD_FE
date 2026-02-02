@@ -1,16 +1,15 @@
 import Header from "../components/Header/Header";
-import Link from "next/link";
-
-export default function Home() {
+import PlayButton from "../components/common/button/PlayButton";
+import CircularText from "../components/circularText/CircularText";
+export default function LandingPage() {
   return (
+    <section className="flex flex-row items-center justify-center w-full h-screen bg-white">
 
-    <div>
-<Link href="/Main">
-      <button className="bg-blue-500 text-white px-4 py-2 rounded-md w-70 h-15">
-        <p className="text-3xl font-bold "> main페이지 이동</p>
-      </button>
-    </Link>
-    </div>
+      <div className="flex flex-row items-center justify-center gap-4 w-full h-full md:max-w-[740px] lg:max-w-[1400px]">
+        <CircularText text="Calculating damage" onHover="goBonkers" color="#dfdfdf" spinDuration={20}>
+          <PlayButton href="/Main" />
+        </CircularText>
+      </div>
+    </section>
   );
 }
-

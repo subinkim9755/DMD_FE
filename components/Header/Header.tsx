@@ -8,8 +8,8 @@ function Header() {
         <div className="flex flex-row items-center justify-between w-full max-w-[1200px] px-4">
             <Logo />
             <div className="flex flex-row items-center justify-center gap-4">
-                <p className="text-3xl font-bold "> 로그인</p> 
-                <p className="text-3xl font-bold "> 회원가입</p> 
+                <p className="text-3xl font-bold cursor-pointer "> 로그인</p> 
+                <p className="text-3xl font-bold cursor-pointer "> 회원가입</p> 
             
             </div>
         </div>
