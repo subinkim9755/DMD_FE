@@ -34,6 +34,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Google Font - Love Light (손글씨 스타일) */
+.font-love-light {
+  font-family: var(--font-love-light), cursive;
+}
+
 .circular-text {
   margin: 0 auto;
   border-radius: 50%;
@@ -47,6 +52,7 @@ body {
   cursor: pointer;
   transform-origin: 50% 50%;
   -webkit-transform-origin: 50% 50%;
+  overflow: visible;
 }
 
 .circular-text span {
@@ -58,4 +64,5 @@ body {
   bottom: 0;
   font-size: 24px;
   transition: all 0.5s cubic-bezier(0, 0, 0, 1);
+  overflow: visible;
 }
