@@ -10,6 +10,8 @@ export default function LandingPage() {
         
         <D_F_Text />
 <div>
+  <p>이미지 슥슥 지나가기</p>
+  <p>캐릭터 이미지들로 꾸미기 전캐릭 나오는걸로 하고 누끼 따야할듯</p>
   <p>당신의 데미지를 계산해 보세요</p>
 </div>
 
