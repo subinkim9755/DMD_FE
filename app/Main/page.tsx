@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
+import Link from 'next/link'
 import SelectInfo from '@/components/mainPage/SelectInfo'
 import ProgressBar from '@/components/mainPage/ProgressBar'
 
@@ -35,7 +36,7 @@ export default function MainPage() {
   if (showSummary) {
     return (
       <section className="flex flex-col items-center justify-center overflow-visible w-full min-h-screen bg-white py-8 px-4">
-        <div className="flex flex-col gap-6 w-full md:max-w-[740px]">
+        <div className="flex flex-col gap-6 w-full items-center justify-center md:max-w-[740px]">
           <h2 className="text-2xl font-bold text-gray-800">입력하신 정보</h2>
           <ul className="w-full border border-gray-200 rounded-lg divide-y divide-gray-200 overflow-hidden">
             {SUMMARY_FIELD_ORDER.filter((key) => formData[key] != null && formData[key] !== '').map((key) => (
@@ -45,13 +46,14 @@ export default function MainPage() {
               </li>
             ))}
           </ul>
+          <Link href="/result">
           <button
             type="button"
-            onClick={() => { setShowSummary(false); setStep(0); }}
             className="px-6 py-2.5 rounded-lg bg-indigo-600 text-white hover:bg-indigo-700 transition-colors"
           >
-            처음으로
+            결과 보기
           </button>
+          </Link>
         </div>
       </section>
     )
