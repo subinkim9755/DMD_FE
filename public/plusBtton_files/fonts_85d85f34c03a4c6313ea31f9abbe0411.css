@@ -1,0 +1,38 @@
+/*
+This file was modified by the Flashtalking Service Suite
+Version: 2.5.2
+Tool: adrepair
+Date: January 16, 2025 at 12:05:22
+Options Selected: {"alwaysClickTag":false,"multipleClickTag":false,"standardAd":false}
+Logged Changes: f_nom
+*/
+@font-face {
+  font-family: AdobeCleanHanTC-Bold;
+  src: url(AdobeCleanHanTC-Bold_95f32145faad5ce384bf36e678d4ce4e.woff) format('woff'),
+  url(AdobeCleanHanTC-Bold_7696d4ce6cb40bd60b1ffa6b0c85b5bf.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: AdobeCleanHanTC-Black;
+  src: url(AdobeCleanHanTC-Black_91e49f238ade92260f5b640c7ca6fac4.woff) format('woff'),
+  url(AdobeCleanHanTC-Black_7a81ea08a886d16d54045c1bb287ac54.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: AdobeCleanHanKBlack;
+  src: url(AdobeCleanHanK-Black_253773a7f6108dffb00e6e7d01fb6549.woff) format('woff');
+  font-style: normal;
+}
+.hanKBlack {
+  font-family: "AdobeCleanHanKBlack", serif;
+}
+@font-face {
+  font-family: AdobeCleanHanKExtraBold;
+  src: url(AdobeCleanHanK-ExtraBold_e5493d4787fe32fd7f9331652d536eaa.woff) format('woff');
+  font-style: normal;
+}
+.hanKExtraBold {
+  font-family: "AdobeCleanHanKExtraBold", serif;
+}

@@ -16,7 +16,7 @@ export default function LandingPage() {
 </div>
 
         <CircularText text=" Calculating damage" onHover="goBonkers" color="#dfdfdf" spinDuration={20}>
-          <PlayButton href="/main" />
+          <PlayButton href="/before" />
         </CircularText>
       </div>
     </section>

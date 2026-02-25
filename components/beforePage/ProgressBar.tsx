@@ -16,7 +16,7 @@ export default function ProgressBar({ currentStep, totalSteps, className = '' }:
   return (
     <div className={`w-full ${className}`}>
       <div className="flex justify-between text-sm text-gray-500 mb-1">
-        <span>단계 {currentStep + 1} / {totalSteps}</span>
+        <span>Step {currentStep + 1} / {totalSteps}</span>
         <span>{Math.round(progressPercent)}%</span>
       </div>
       <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">

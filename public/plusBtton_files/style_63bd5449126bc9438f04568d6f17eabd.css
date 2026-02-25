@@ -1,0 +1,40 @@
+/*
+This file was modified by the Flashtalking Service Suite
+Version: 2.5.2
+Tool: adrepair
+Date: January 16, 2025 at 12:05:22
+Options Selected: {"alwaysClickTag":false,"multipleClickTag":false,"standardAd":false}
+Logged Changes: f_nom
+*/
+.frame1ContentContainer{
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 37px 0px 0px 0px;
+  gap: 35px;
+  align-items: center;
+  position: relative;
+}
+.copyCtaContainer {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  align-items: center;
+}
+.titleSubtitleContainer {
+  gap: 15px;
+}
+.title {
+  letter-spacing: -0.42px;
+}
+.logo {
+  width: 119px;
+  height: auto;
+}
+.cta {
+  width: 88px;
+  height: 31px;
+}
+.cta_copy {
+  padding: 6px 5px;
+}
